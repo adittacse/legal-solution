@@ -1,0 +1,105 @@
+/* common styles */
+.primary-color {
+    color: #414040;
+}
+
+.primary-bg-color {
+    background-color: #b68c5a
+}
+
+.secondary-color {
+    color: #707070;
+}
+.third-color {
+    color: #e7e7e7;
+}
+
+.fourth-bg-color {
+    background: #f3f3f3;
+}
+
+.fifth-bg-color {
+    background: #F3F3F3;
+}
+
+/* fonts class */
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.garamond {
+    font-family: "EB Garamond", serif;
+}
+
+/* nav styles */
+.navbar-brand img {
+    width: 158px;
+    height: 46px;
+}
+
+/* button styles */
+.btn-primary {
+    border: #b68c5a !important;
+    background-color: #b68c5a !important;
+}
+
+/* banner styles  */
+.banner {
+    position: relative;
+    background-image: url(../images/banner.png), linear-gradient(to right, #111111 0%, rgba(17, 17, 17, 0) 100%);
+    background-size: cover;
+    min-height: 80vh;
+}
+
+.banner-title {
+    font-size: 72px;
+}
+
+.banner-info {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+/* legal practice styles */
+.criminal-law {
+    background: linear-gradient(to bottom, #f3f3f3 0%, rgba(243, 243, 243, 0) 100%);
+}
+
+/* faq styles */
+.accordion-button.garamond, .accordion-body {
+    background-color: #f3f3f3;
+    color: #414040;
+    border: 0;
+}
+
+/* slider */
+.slider {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.slide-bg-1 {
+    background-image: url(../images/slider-1.jpg);
+    background-repeat: no-repeat;
+}
+
+.slide-bg-2 {
+    background-image: url(../images/slider-2.jpg);
+    background-repeat: no-repeat;
+}
+
+.slide-bg-3 {
+    background-image: url(../images/slider-3.jpg);
+    background-repeat: no-repeat;
+}
+
+/* slider person image */
+.person {
+    width: 10%;
+}
+
+/* contact form styles */
+input[type='text'], textarea {
+    background-color: #F3F3F3 !important;
+}
